@@ -45,7 +45,7 @@ def grab(url):
         else:
             tuner += 5
     print(f"{link[start : end]}")
-
+    print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
 
 print(banner)
 #s = requests.Session()
